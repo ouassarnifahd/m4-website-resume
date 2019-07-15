@@ -1,0 +1,5 @@
+divert(-1)
+define(TITLE, %[Tales of My life]%)
+define(AUTHOR, %[Fahd Ouassarni]%)
+define(PROFILE, %[https://avatars2.githubusercontent.com/u/24702495?s=460&v=4]%)
+define(ALT_PROFILE, %[Profile picture]%)
