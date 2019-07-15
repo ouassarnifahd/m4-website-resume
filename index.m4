@@ -107,7 +107,7 @@ HTML_BODY(%[id="page-top"]%,
         RESUME_CONTENT(, %[list]%, %[Operating Systems]%, %[Windows%[,]% RESUME_PRIMARY_COLOR(Linux)%[,]% MacOS (UNIX)]%)
         RESUME_CONTENT(, %[list]%, %[Text editors]%, %[Atom%[,]% Notepad++%[,]% RESUME_PRIMARY_COLOR(VIM).]%)
         RESUME_CONTENT(, %[list]%, %[Compilers]%, %[RESUME_PRIMARY_COLOR(GCC)%[,]% LLVM%[,]% Kail%[,]% SDCC.]%)
-        RESUME_CONTENT(, %[list]%, %[Boards]%, %[RESUME_PRIMARY_COLOR(OrangePi Zero)%[,]% TinyFPGA BX.]%)
+        RESUME_CONTENT(, %[list]%, %[Boards]%, %[RESUME_PRIMARY_COLOR(OrangePi Zero)%[,]% TL-MR3020%[,]% TinyFPGA BX.]%)
         RESUME_CONTENT(, %[list]%, %[EDA]%, %[Eagle%[,]% RESUME_PRIMARY_COLOR(Altium Designer)%[,]% Kicad.]%)
         RESUME_CONTENT(last, %[list]%, %[IDE]%, %[Eclipse (RESUME_PRIMARY_COLOR(Vivado)%[,]% MPLABX%[,]% CCS)%[,]% CLion.]%)
     ]%)
