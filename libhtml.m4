@@ -50,3 +50,6 @@ define(%[HTML_ULIST_REC]%, %[HTML_ENV(ul, %[$1]%, _REC_LIST(shift($@)))]%)
 define(%[HTML_LIST_ITEM]%, %[HTML_ENV(li, %[$1]%, $2)]%)
 define(%[HTML_ULIST]%, %[HTML_ENV(ul, %[$1]%, $2)]%)
 define(%[HTML_OLIST]%, %[HTML_ENV(ol, %[$1]%, $2)]%)
+
+define(%[HTML_UNDERLINE]%, %[HTML_ENV(u, %[$1]%, $2)]%)
+define(%[HTML_BOLD]%,      %[HTML_ENV(b, %[$1]%, $2)]%)

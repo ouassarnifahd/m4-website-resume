@@ -17,7 +17,7 @@ HTML_BODY(%[id="page-top"]%,
             Hi%[,]% my name is HTML_HYPERLINK(, %[https://oussfahd.xyz]%, %[Fahd Ouassarni]%). I came from a small city in east HTML_HYPERLINK(, %[https://en.wikipedia.org/wiki/Morocco]%, %[Morocco]%) called HTML_HYPERLINK(, %[https://goo.gl/maps/dPCWYfi45cr]%, %[Taourirt]%).
         ]%)
         HTML_PARAGRAPH(%[class="mb-4"]%, %[
-            <b>I am a young self-taught Electronic hobbyist.</b> When I was at a very young age%[,]% I got curious and started messing up with the electronic devices from 90s games as a result this became my main hobby.
+            HTML_BOLD(,%[I am a young self-taught Electronic hobbyist.]%) When I was at a very young age%[,]% I got curious and started messing up with the electronic devices from 90s games as a result this became my main hobby.
             After getting into HTML_HYPERLINK(, %[https://www.ensicaen.fr]%, %[ENSICAEN]%) Engineering School%[,]% this hobby finally became my work.
         ]%)
         HTML_PARAGRAPH(%[class="mb-2"]%, %[
@@ -41,7 +41,7 @@ HTML_BODY(%[id="page-top"]%,
             ]%)
             HTML_PARAGRAPH(%[class="mb-1"]%,
             %[
-                Missions:
+                HTML_BOLD(, %[Missions:]%)
                 RESUME_ULIST(
                 %[
                     RESUME_LIST_ITEM(Embedded software developpement for 8051.)
@@ -60,7 +60,7 @@ HTML_BODY(%[id="page-top"]%,
             ]%)
             HTML_PARAGRAPH(%[class="mb-0 mt-1"]%,
             %[
-                Missions:
+                HTML_BOLD(, %[Missions:]%)
                 RESUME_ULIST(
                 %[
                     RESUME_LIST_ITEM(WIFI Hotspot configuration.)
@@ -70,7 +70,7 @@ HTML_BODY(%[id="page-top"]%,
             ]%)
             HTML_PARAGRAPH(%[class="mb-0"]%,
             %[
-                Product: Space Inspection Rover [HTML_HYPERLINK(,%[https://www.facebook.com/watch/?v=335022830595514]%,%[Video]%)]
+                HTML_BOLD(, %[Product:]%) Space Inspection Rover [HTML_HYPERLINK(,%[https://www.facebook.com/watch/?v=335022830595514]%,%[Video]%)]
             ]%)
         ]%)
 
@@ -79,19 +79,25 @@ HTML_BODY(%[id="page-top"]%,
         %[
             HTML_PARAGRAPH(,
             %[
-                Hosted by: Human Interface and Cyber Communication Laboratory. <br>
-                Research subject: Multichannel speech segregation using FDBM on a Single Board Computer. [HTML_HYPERLINK(,%[https://github.com/ouassarnifahd/cfdbm]%,%[cfdbm]%)]
+                HTML_BOLD(, %[Hosted by:]%) Human Interface and Cyber Communication Laboratory. <br>
+                HTML_BOLD(, %[Research subject:]%) Multichannel speech segregation using FDBM on a Single Board Computer. [HTML_HYPERLINK(,%[https://github.com/ouassarnifahd/cfdbm]%,%[cfdbm]%)]
             ]%)
         ]%)
 
         RESUME_CONTENT(last,%[job]%, %[Junior Web Designer]%,
         %[Citizenship school of political studies]%, %[Rabat, Morocco]%, %[June 2013 — July 2013]%,
         %[
-            HTML_PARAGRAPH(,
+            HTML_PARAGRAPH(%[class="mb-0"]%,
             %[
-                HTML_HYPERLINK(,%[https://www.ecep.ma/en/]%,%[CSPS]%) is a non-profit association started in early 2013 by civil society actors aiming to improve capacity building of those involved in public affairs management in Morocco. <br>
-                Mission: Designing an informative website for a non-profit association. <br>
-                Product: Informative website using Blogspot. [HTML_HYPERLINK(,%[https://ecepmaroc.blogspot.com]%,%[blog]%)]
+                HTML_HYPERLINK(,%[https://www.ecep.ma/en/]%,%[CSPS]%) is a non-profit association started in early 2013 by civil society actors aiming to improve capacity building of those involved in public affairs management in Morocco.
+            ]%)
+            HTML_PARAGRAPH(%[class="mb-0 mt-1"]%,
+            %[
+                HTML_BOLD(, %[Mission:]%) Designing an informative website for a non-profit association.
+            ]%)
+            HTML_PARAGRAPH(%[class="mb-0"]%,
+            %[
+                HTML_BOLD(, %[Product:]%) Informative website using Blogspot. [HTML_HYPERLINK(,%[https://ecepmaroc.blogspot.com]%,%[blog]%)]
             ]%)
         ]%)
     ]%)
@@ -213,34 +219,44 @@ HTML_BODY(%[id="page-top"]%,
         RESUME_CONTENT(,%[degree]%, %[Electronic Engineering Master Degree]%,
         %[ENSICAEN]%, %[Caen, France]%, %[September 2016 — September 2019]%,
         %[
-            HTML_PARAGRAPH(,
+            HTML_PARAGRAPH(%[class="mb-0"]%,
             %[
-                HTML_HYPERLINK(,%[https://www.ensicaen.fr]%,%[ENSICAEN]%) is a public institution%[,]% authorized to award a Graduate Diploma of Engineering (equivalent to a Master’s degree) which is acknowledged by the French National Engineering Accreditation Commission (HTML_HYPERLINK(,%[https://www.cti-commission.fr]%,%[CTI]%)). <br>
-                Speciality: Electronics and applied physics. <br>
-                Major: Signal%[,]% regulation for embedded and telecom. [HTML_HYPERLINK(,%[http://livretpedagogique.ensicaen.fr/pages/afficherSpecialite.php?numSpecialite=4&]%,%[Courses]%)]
+                HTML_HYPERLINK(,%[https://www.ensicaen.fr]%,%[ENSICAEN]%) is a public institution%[,]% authorized to award a Graduate Diploma of Engineering (equivalent to a Master’s degree) which is acknowledged by the French National Engineering Accreditation Commission (HTML_HYPERLINK(,%[https://www.cti-commission.fr]%,%[CTI]%)).
+            ]%)
+            HTML_PARAGRAPH(%[class="mb-0 mt-1"]%,
+            %[
+                HTML_BOLD(, %[Speciality:]%) Electronics and applied physics.
+            ]%)
+            HTML_PARAGRAPH(%[class="mb-0"]%,
+            %[
+                HTML_BOLD(, %[Major:]%) Signal%[,]% regulation for embedded and telecom. [HTML_HYPERLINK(,%[http://livretpedagogique.ensicaen.fr/pages/afficherSpecialite.php?numSpecialite=4&]%,%[Courses]%)]
             ]%)
         ]%)
 
         RESUME_CONTENT(,%[degree]%, %[Higher School Preparatory Classes]%,
         %[Jean Moulin High School]%, %[Forbach, France]%, %[September 2014 — May 2016]%,
         %[
-            HTML_PARAGRAPH(,
+            HTML_PARAGRAPH(%[class="mb-0"]%,
             %[
-                They consist of two very intensive years with the main goal of training undergraduate students for enrollment in one of the grandes HTML_HYPERLINK(,%[https://en.wikipedia.org/wiki/Grandes_%C3%A9coles]%,%[écoles]%). <br>
-                %[Speciality: Mathematics, Physics and Engineering Science.]% <br>
-                Courses:
-                <ul class="fa-ul mb-0">
-                  <li>
-                    <i class="fa-li fa fa-stop my-auto"></i>
-                    %[Mathematics:<br> Algebra, Linear Algebra, Calculus, Probability.]%</li>
-                  <li>
-                    <i class="fa-li fa fa-stop"></i>
-                    %[Physics:<br> Electronics, Modern Physics, Thermodynamics, Optics, Chemistry.]%</li>
-                  <li>
-                    <i class="fa-li fa fa-stop"></i>
-                    %[Engineering Science:<br> Control Theory, Computer Science.]%</li>
-                </ul> <br>
-                Results: Admission at ENSICAEN via Concours Commun Polytechnique.
+                They consist of two very intensive years with the main goal of training undergraduate students for enrollment in one of the HTML_HYPERLINK(,%[https://en.wikipedia.org/wiki/Grandes_%C3%A9coles]%,%[grandes écoles]%).
+            ]%)
+            HTML_PARAGRAPH(%[class="mb-0"]%,
+            %[
+                HTML_BOLD(, %[Speciality:]%) %[Mathematics, Physics and Engineering Science.]%
+            ]%)
+            HTML_PARAGRAPH(%[class="mb-0 mt-1"]%,
+            %[
+                HTML_BOLD(, %[Courses:]%)
+                RESUME_ULIST(
+                %[
+                    RESUME_LIST_ITEM(%[Mathematics: Algebra%[,]% Linear Algebra%[,]% Calculus%[,]% Probability.]%)
+                    RESUME_LIST_ITEM(%[Physics: Electronics%[,]% Modern Physics%[,]% Thermodynamics%[,]% Optics%[,]% Chemistry.]%)
+                    RESUME_LIST_ITEM(%[Engineering Science: Control Theory%[,]% Computer Science.]%)
+                ]%)
+            ]%)
+            HTML_PARAGRAPH(%[class="mb-0"]%,
+            %[
+                HTML_BOLD(, %[Results:]%) Admission at ENSICAEN via Concours Commun Polytechnique.
             ]%)
         ]%)
 
@@ -249,7 +265,7 @@ HTML_BODY(%[id="page-top"]%,
         %[
             HTML_PARAGRAPH(,
             %[
-                Speciality: Mathematics and Engineering Science. <br>
+                HTML_BOLD(, %[Speciality:]%) Mathematics and Engineering Science. <br>
             ]%)
         ]%)
     ]%)
