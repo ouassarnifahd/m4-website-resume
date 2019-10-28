@@ -34,14 +34,14 @@ define(%[RESUME_STYLE]%,
     HTML_STYLE(%[vendor/bootstrap/css/bootstrap.css]%)
 
     <!-- Custom fonts for this template -->
-    <!-- HTML_STYLE(%[http://mplus-fonts.osdn.jp/webfonts/general-j/mplus_webfonts.css]%) -->
-    <!-- HTML_STYLE(%[https://fonts.googleapis.com/css?family=Sawarabi+Mincho]%) -->
+    dnl HTML_STYLE(%[http://mplus-fonts.osdn.jp/webfonts/general-j/mplus_webfonts.css]%)
+    dnl HTML_STYLE(%[https://fonts.googleapis.com/css?family=Sawarabi+Mincho]%)
     HTML_STYLE(%[https://fonts.googleapis.com/css?family=Noto+Serif+JP:300]%)
     HTML_STYLE(%[https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900]%)
     HTML_STYLE(%[https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i]%)
     HTML_STYLE(%[vendor/font-awesome/css/font-awesome.css]%)
-    <!-- HTML_STYLE(%[vendor/devicons/css/devicons.css]%) -->
-    <!-- HTML_STYLE(%[vendor/simple-line-icons/css/simple-line-icons.css]%) -->
+    dnl HTML_STYLE(%[vendor/devicons/css/devicons.css]%)
+    dnl HTML_STYLE(%[vendor/simple-line-icons/css/simple-line-icons.css]%)
 
     <!-- Custom styles for this template -->
     HTML_STYLE(%[css/resume.css]%)_NL()
@@ -105,10 +105,10 @@ define(RESUME_NAV_LIST,
             %[HTML_HYPERLINK(%[class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"]%, %[#]%, %[Download PDF Version]%)
              HTML_BLOCK(%[class="dropdown-menu dropdown-menu-right" style="min-width: 5rem"]%,
             %[_NL()dnl
-                HTML_HYPERLINK(%[class="dropdown-item d-none d-lg-block text-right"]%, %[https://raw.githubusercontent.com/ouassarnifahd/latex-cv-resume/master/resume.pdf]%, %[English]%)
-                HTML_HYPERLINK(%[class="dropdown-item d-none d-lg-block text-right"]%, %[https://raw.githubusercontent.com/ouassarnifahd/latex-cv-resume/master/cv.pdf]%, %[French]%)
-                HTML_HYPERLINK(%[class="dropdown-item d-block d-lg-none"]%, %[https://raw.githubusercontent.com/ouassarnifahd/latex-cv-resume/master/resume.pdf]%, %[English]%)
-                HTML_HYPERLINK(%[class="dropdown-item d-block d-lg-none"]%, %[https://raw.githubusercontent.com/ouassarnifahd/latex-cv-resume/master/cv.pdf]%, %[French]%)
+                HTML_HYPERLINK(%[class="dropdown-item d-none d-lg-block text-right"]%, RESUME_LINK, %[English]%)
+                HTML_HYPERLINK(%[class="dropdown-item d-none d-lg-block text-right"]%, CV_LINK, %[French]%)
+                HTML_HYPERLINK(%[class="dropdown-item d-block d-lg-none"]%, RESUME_LINK, %[English]%)
+                HTML_HYPERLINK(%[class="dropdown-item d-block d-lg-none"]%, RESUME_LINK, %[French]%)
             ]%)
             ]%)
             HTML_LIST_ITEM(%[class="nav-item" id="goback"]%,

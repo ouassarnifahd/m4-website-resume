@@ -104,10 +104,12 @@ HTML_BODY(%[id="page-top"]%,
 
     RESUME_BLOCK(%[Workflow]%,
     %[
-        RESUME_CONTENT(, %[list]%, %[Operating Systems]%, %[Windows%[,]% RESUME_PRIMARY_COLOR(Linux)%[,]% MacOS (UNIX)]%)
+        RESUME_CONTENT(, %[list]%, %[Operating Systems]%, %[Windows%[,]% RESUME_PRIMARY_COLOR(Linux)%[,]% MacOS]%)
+        RESUME_CONTENT(, %[list]%, %[Building Systems]%, %[Linux From Scratch%[,]% Buildroot%[,]% RESUME_PRIMARY_COLOR(Yocto)%[,]% OpenWRT.]%)
         RESUME_CONTENT(, %[list]%, %[Text editors]%, %[Atom%[,]% Notepad++%[,]% RESUME_PRIMARY_COLOR(VIM).]%)
-        RESUME_CONTENT(, %[list]%, %[Compilers]%, %[RESUME_PRIMARY_COLOR(GCC)%[,]% LLVM%[,]% Kail%[,]% SDCC.]%)
-        RESUME_CONTENT(, %[list]%, %[Boards]%, %[RESUME_PRIMARY_COLOR(OrangePi Zero)%[,]% TL-MR3020%[,]% TinyFPGA BX.]%)
+        RESUME_CONTENT(, %[list]%, %[Compilers]%, %[RESUME_PRIMARY_COLOR(GCC)%[,]% LLVM%[,]% Keil%[,]% SDCC.]%)
+        RESUME_CONTENT(, %[list]%, %[Debuggers]%, %[RESUME_PRIMARY_COLOR(valgrind)%[,]% gdb%[,]% strace%[,]% ftrace%[,]% SystemTap.]%)
+        RESUME_CONTENT(, %[list]%, %[Boards]%, %[Raspberry Pi 3%[,]% RESUME_PRIMARY_COLOR(OrangePi Zero)%[,]% TL-MR3020%[,]% TinyFPGA BX.]%)
         RESUME_CONTENT(, %[list]%, %[EDA]%, %[Eagle%[,]% RESUME_PRIMARY_COLOR(Altium Designer)%[,]% Kicad.]%)
         RESUME_CONTENT(last, %[list]%, %[IDE]%, %[Eclipse (RESUME_PRIMARY_COLOR(Vivado)%[,]% MPLABX%[,]% CCS)%[,]% CLion.]%)
     ]%)
@@ -218,7 +220,7 @@ HTML_BODY(%[id="page-top"]%,
     RESUME_BLOCK(%[Education]%,
     %[
         RESUME_CONTENT(,%[degree]%, %[Electronic Engineering Master Degree]%,
-        %[ENSICAEN]%, %[Caen, France]%, %[September 2016 — September 2019]%,
+        %[ENSICAEN]%, %[Caen, France]%, %[September 2016 — March 2020]%,
         %[
             HTML_PARAGRAPH(%[class="mb-0"]%,
             %[
@@ -274,13 +276,14 @@ HTML_BODY(%[id="page-top"]%,
     RESUME_BLOCK(%[Technical Skills]%,
     %[
         RESUME_CONTENT(, %[list]%, %[Architectures]%, %[x86%[,]% RESUME_PRIMARY_COLOR(ARM)%[,]% RESUME_PRIMARY_COLOR(PIC)%[,]% 8051%[,]% Z80.]%)
-        RESUME_CONTENT(, %[list]%, %[Communication]%, %[RESUME_PRIMARY_COLOR(UART)%[,]% RESUME_PRIMARY_COLOR(SPI)%[,]% I2C%[,]% USB%[,]% WIFI%[,]% BLE%[,]% NFC.]%)
-        RESUME_CONTENT(, %[list]%, %[Programming]%, %[RESUME_PRIMARY_COLOR(Assembly)%[,]% RESUME_PRIMARY_COLOR(C)%[,]% RESUME_PRIMARY_COLOR(C++)%[,]% Java%[,]% Javascript.]%)
-        RESUME_CONTENT(, %[list]%, %[Frameworks]%, %[RESUME_PRIMARY_COLOR(FreeRTOS)%[,]% OpenMP%[,]% RESUME_PRIMARY_COLOR(ALSA)%[,]% SDL%[,]% RESUME_PRIMARY_COLOR(Bootstrap).]%)
+        RESUME_CONTENT(, %[list]%, %[Communication]%, %[RESUME_PRIMARY_COLOR(UART)%[,]% RESUME_PRIMARY_COLOR(SPI)%[,]% I2C%[,]% CAN%[,]% USB.]%)
+        RESUME_CONTENT(, %[list]%, %[Programming]%, %[RESUME_PRIMARY_COLOR(Assembly)%[,]% RESUME_PRIMARY_COLOR(C/C++)%[,]% Java%[,]% Javascript%[,]% M4.]%)
+        RESUME_CONTENT(, %[list]%, %[Networking]%, %[RESUME_PRIMARY_COLOR(iptables)%[,]% RESUME_PRIMARY_COLOR(nfs)%[,]% tftp%[,]% hostapd.]%)
+        RESUME_CONTENT(, %[list]%, %[Frameworks]%, %[RESUME_PRIMARY_COLOR(FreeRTOS)%[,]% ALSA%[,]% OpenMP%[,]% RESUME_PRIMARY_COLOR(Bootstrap)%[,]% SDL%[,]% RESUME_PRIMARY_COLOR(Yocto).]%)
         RESUME_CONTENT(, %[list]%, %[Simulation]%, %[RESUME_PRIMARY_COLOR(MATLAB)%[,]% Simulink.]%)
         RESUME_CONTENT(, %[list]%, %[Scripting]%, %[RESUME_PRIMARY_COLOR(Shell)%[,]% RESUME_PRIMARY_COLOR(Python)%[,]% Perl%[,]% Lua.]%)
-        RESUME_CONTENT(, %[list]%, %[Utilities]%, %[RESUME_PRIMARY_COLOR(Git)%[,]% RESUME_PRIMARY_COLOR(Makefile)%[,]% M4%[,]% Wireshark.]%)
-        RESUME_CONTENT(, %[list]%, %[Markup]%, %[RESUME_PRIMARY_COLOR(%[%[HTML]%]%)%[,]% CSS%[,]% RESUME_PRIMARY_COLOR(LaTeX)%[,]% Markdown.]%)
+        RESUME_CONTENT(, %[list]%, %[Utilities]%, %[RESUME_PRIMARY_COLOR(Git)%[,]% RESUME_PRIMARY_COLOR(SSH)%[,]% RESUME_PRIMARY_COLOR(Makefile)%[,]% Wireshark.]%)
+        RESUME_CONTENT(, %[list]%, %[Markup]%, %[RESUME_PRIMARY_COLOR(%[%[HTML/CSS]%]%)%[,]% RESUME_PRIMARY_COLOR(LaTeX)%[,]% Markdown.]%)
         RESUME_CONTENT(last, %[list]%, %[HDL]%, %[RESUME_PRIMARY_COLOR(VHDL)%[,]% Verilog.]%)
     ]%)
 
@@ -299,7 +302,7 @@ HTML_BODY(%[id="page-top"]%,
         RESUME_CONTENT(, %[list]%, %[Technology]%)
         RESUME_CONTENT(, %[list]%, %[Cultures]%)
         RESUME_CONTENT(, %[list]%, %[Travel]%)
-        RESUME_CONTENT(last, %[list]%, %[Games]%)
+        RESUME_CONTENT(last, %[list]%, %[Video Games]%)
     ]%)
 
     RESUME_SCRIPTS()
