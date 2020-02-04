@@ -305,7 +305,7 @@ HTML_BODY(%[id="page-top"]%,
         RESUME_CONTENT(last, %[list]%, %[Video Games]%)
     ]%)
 
-    RESUME_SCRIPTS()
+    dnl RESUME_SCRIPTS()
 ]%)
 
 ]%)
