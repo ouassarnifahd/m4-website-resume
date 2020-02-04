@@ -13,17 +13,6 @@ define(%[RESUME_SCRIPTS]%,
     <!-- Plugin JavaScript -->
     HTML_SCRIPT(%[src="vendor/jquery-easing/jquery.easing.js"]%)
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    HTML_SCRIPT(%[async src="https://www.googletagmanager.com/gtag/js?id=UA-47997317-2"]%)
-    HTML_SCRIPT(%[type="text/javascript"]%,
-    %[_NL()dnl
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-47997317-2');
-    ]%)
-
     <!-- Custom scripts for this template -->
     HTML_SCRIPT(%[src="js/resume.js"]%)
 
@@ -71,7 +60,18 @@ define(%[RESUME_HEAD]%,
 
         HTML_TITLE(%[TITLE - Resume]%)
 
-        RESUME_SCRIPTS()
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        HTML_SCRIPT(%[async src="https://www.googletagmanager.com/gtag/js?id=UA-47997317-2"]%)
+        HTML_SCRIPT(%[]%,
+            %[_NL()dnl
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-47997317-2');
+        ]%)
+
+        dnl RESUME_SCRIPTS()
 
         RESUME_STYLE()
     ]%)
