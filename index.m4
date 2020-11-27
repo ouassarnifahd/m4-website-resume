@@ -117,17 +117,17 @@ HTML_BODY(%[id="page-top"]%,
     RESUME_BLOCK(%[Projects]%,
     %[
 
-        RESUME_CONTENT(,%[project]%, %[S1MP3 Repairing: Reverse Engineering Project]%,
-        %[@Home, RE, S1MP3, Z80, AD-DSP]%, %[July 2019 — Ongoing]%,
-        %[
-            HTML_PARAGRAPH(,
-            %[
-                Repairing and updating the firmware of my old mp3 device.
-            ]%)
-        ]%)
+        dnl  RESUME_CONTENT(,%[project]%, %[S1MP3 Repairing: Reverse Engineering Project]%,
+        dnl  %[@Home, RE, S1MP3, Z80, AD-DSP]%, %[July 2019 — Ongoing]%,
+        dnl  %[
+        dnl      HTML_PARAGRAPH(,
+        dnl      %[
+        dnl          Repairing and updating the firmware of my old mp3 device.
+        dnl      ]%)
+        dnl  ]%)
 
         RESUME_CONTENT(,%[project]%, %[OpenWRT On WiSOC: Setting up a pocket WiFi router]%,
-        %[@Home, Telecom, OpenWRT, Linux, RISC]%, %[June 2019 — Ongoing]%,
+        %[@Home, Telecom, OpenWRT, Linux, RISC]%, %[June 2019 — April 2020]%,
         %[
             HTML_PARAGRAPH(,
             %[

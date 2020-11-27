@@ -34,8 +34,10 @@ define(%[RESUME_STYLE]%,
     HTML_STYLE(%[vendor/bootstrap/css/bootstrap.css]%)
 
     <!-- Custom fonts for this template -->
-    dnl HTML_STYLE(%[http://mplus-fonts.osdn.jp/webfonts/general-j/mplus_webfonts.css]%)
-    dnl HTML_STYLE(%[https://fonts.googleapis.com/css?family=Sawarabi+Mincho]%)
+    dnl HTML_STYLE(%[https://fonts.googleapis.com/css2?family=Aref+Ruqaa]%)
+    dnl HTML_STYLE(%[https://fonts.googleapis.com/css2?family=Reem+Kufi]%)
+    dnl HTML_STYLE(%[https://fonts.googleapis.com/css2?family=Katibeh]%)
+    HTML_STYLE(%[https://fonts.googleapis.com/css2?family=Mirza]%)
     HTML_STYLE(%[https://fonts.googleapis.com/css?family=Noto+Serif+JP:300]%)
     HTML_STYLE(%[https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900]%)
     HTML_STYLE(%[https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i]%)
@@ -144,7 +146,7 @@ define(%[RESUME_BLOCK]%,
 
 # Lets put our nice template here
 define(%[RESUME_ABOUT]%,
-%[HTML_HEADING(1, %[class="mb-0"]%,%[HTML_INLINE(%[class="text-primary"]%, %[$1]%) $2]%)
+%[HTML_HEADING(1, %[class="mb-0" style="font-family: 'Mirza'"]%,%[HTML_INLINE(%[class="text-primary"]%, %[$1]%) $2]%)
  HTML_BLOCK(%[class="subheading mb-5"]%,%[<br>$3 · $4 · HTML_HYPERLINK(,%[mailto:$5]%, %[$5]%)]%)
 ]%)
 
